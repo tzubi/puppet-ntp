@@ -9,7 +9,7 @@ class ntp::service(
     ensure     => $service_ensure,
     enable     => $service_enable,
     name       => $service_name,
-    hastatus   => $service_hasstatus,
+    hasstatus   => $service_hasstatus,
     hasrestart => $service_hasrestart,
    }
 }
